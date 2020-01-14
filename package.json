@@ -1,0 +1,63 @@
+{
+  "name": "webpack-builder",
+  "version": "1.0.0",
+  "description": "webpack build",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ./node_modules/.bin/_mocha",
+    "eslint": "eslint ./lib --fix"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "js-ding",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.7.3",
+    "glob": "^7.1.6",
+    "webpack-merge": "^4.2.2",
+    "amfe-flexible": "^2.2.1",
+    "integer-addition": "^1.0.2",
+    "webpack": "^4.41.5",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "html-webpack-externals-plugin": "^3.8.0",
+    "cssnano": "^4.1.10",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "friendly-errors-webpack-plugin": "^1.7.0"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.0-beta.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-loader": "^3.0.3",
+    "express": "^4.17.1",
+    "file-loader": "^4.2.0",
+    "glob": "^7.1.6",
+    "glob-all": "^3.1.0",
+    "html-inline-css-webpack-plugin": "^1.8.0",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "ignore-loader": "^0.1.2",
+    "istanbul": "^0.4.5",
+    "koa": "^2.11.0",
+    "koa-static": "^5.0.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mocha": "^6.2.2",
+    "nyc": "^15.0.0",
+    "postcss-loader": "^3.0.0",
+    "px2rem-loader": "^0.1.9",
+    "raw-loader": "^0.5.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "rimraf": "^3.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

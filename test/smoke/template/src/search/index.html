@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 这里利用到 html-webpack-plugin 中ejs语法，实现外联 -->
+    ${ require('raw-loader!./meta.html') }
+    <title>Document</title>
+    <script>${ require('raw-loader!../../node_modules/amfe-flexible/index.js') }</script>
+    <script type="text/javascript" src="https://cdn.staticfile.org/react/16.10.2/umd/react.development.js"></script>
+    <script type="text/javascript" src="https://cdn.staticfile.org/react-dom/16.10.2/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="root"><!--HTML_PLACEHOLDER--></div>
+    <!--INITIAL_DATA_PLACEHOLDER-->
+</body>
+</html>

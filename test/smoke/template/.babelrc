@@ -1,0 +1,15 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "modules": false // 解析 es6 懒加载
+            }
+        ],    // 解析 es6
+        "@babel/preset-react"   // 解析 react
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-syntax-dynamic-import"
+    ]
+}
