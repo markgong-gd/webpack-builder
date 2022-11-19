@@ -39,7 +39,7 @@
     "html-inline-css-webpack-plugin": "^1.8.0",
     "html-webpack-externals-plugin": "^3.8.0",
     "html-webpack-inline-source-plugin": "0.0.10",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "koa": "^2.11.0",
     "koa-static": "^5.0.0",
     "less": "^3.10.3",
